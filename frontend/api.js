@@ -6,19 +6,10 @@ export const getArticles = () => {
    //    url: 'http://127.0.0.1:3000',
    // };
 
-   axios.get('http://127.0.0.1:3000').then(function (response) {
-      console.log(response.data);
-      const Data = response.data;
-      const {name, school, age, height, weight, Class, language} = Data;
-      const info = [name, school, age, height, weight, Class, language]
-
-      info.forEach(el => {
-         let p = document.createElement('p');
-         p.innerHTML = el;
-         div.appendChild(p)
-      });
-      // const {name, school, age, height, weight, Class, language} = Data;
-      // console.log(name)
+   axios.get('http://api.mediastack.com/v1/news?access_key=bac1ea8ad4ce9365a495b7deca5b96a9&languages=en')
+   
+   .then(function (response) {
+      console.log(response)
    }).catch(function (error) {
       console.error(error);
    });
