@@ -1,28 +1,18 @@
-const express = require('express');
-const app = express();
+const express = require('express')
+
+const app = express()
 const cors = require('cors');
 
+const articles = []
+
 app.use(cors());
-const data = {
-   'name': 'Kachi',
-   'age': '24',
-   'weight': '50g',
-   'school': 'Devamplify',
-   'Class': 'JS3',
-   'language': 'Igbo',
-   'height': ' 2ft'
-}
-
-app.get('/', function (req, res) {
-   res.send(data);
-});
-
-app.get('/happinness', function (req, res) {
-   res.send('<b>My</b> first Hapinness server');
-});
 
 
+app.get('/', (req,res)=>{
+   res.send('Welcome to my App')
+   console.log(req)
+})
 
-app.listen(3000, () => {
-   console.log('Server is up and running')
+app.listen(3000, ()=>{
+   console.log('I am up and running')
 })

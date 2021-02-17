@@ -1,7 +1,6 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
+  "name": "articles",
+  "version": "0.0.1",
   "main": "app.js",
   "dependencies": {
     "cors": "^2.8.5",
@@ -10,9 +9,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Toby Chidi",
+  "license": "ISC",
+  "description": ""
 }
