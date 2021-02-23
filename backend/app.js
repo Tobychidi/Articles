@@ -7,7 +7,6 @@ const sizesRoute = require('./routes/sizes');
 
 //MIDDLEWARES
 app.use(express.json());
-
 app.use(cors());
 
 

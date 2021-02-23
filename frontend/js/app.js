@@ -1,4 +1,4 @@
-import { getArticles } from './api.js';
+import { addShapes } from './api.js';
 
 const button = document.querySelector('button');
 
@@ -9,5 +9,5 @@ const button = document.querySelector('button');
 
 
 button.addEventListener("click", function () {
-   getArticles()
+   addShapes()
 })
