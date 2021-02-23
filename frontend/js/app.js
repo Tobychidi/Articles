@@ -1,4 +1,4 @@
-import { getArticles} from './api.js';
+import { getArticles } from './api.js';
 
 const button = document.querySelector('button');
 
