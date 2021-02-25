@@ -1,0 +1,46 @@
+{
+   "cube": {
+      "dim": {
+         "width": 50,
+         "height": 50
+      }
+   },
+   "square": {
+      "dim": {
+         "width": 50,
+         "height": 50
+      }
+   },
+   "triangle": {
+      "dim": {
+         "width": 50,
+         "height": 50
+      }
+   },
+   "triangle2": {
+      "dim": {
+         "width": 50,
+         "height": 50
+      }
+   },
+   "rhombus": {
+      "dim": {
+         "width": 50,
+         "height": 50
+      }
+   },
+   "rhombus2": {
+      "dim": {
+         "width": 50,
+         "height": 50
+      }
+   },
+   "rectangle": {
+      "dim": {
+         "width": 50,
+         "height": 50
+      }
+   },
+   "rectangula": {},
+   "cone": {}
+}

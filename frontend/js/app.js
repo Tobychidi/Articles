@@ -1,13 +1,12 @@
-import { addShapes } from './api.js';
+import { getShapes } from './api.js';
 
 const button = document.querySelector('button');
-
-// button.onclick(()=>{
-//    getArticles()
-//    console.log('I worked')
-// })
-
+const addShapesButton = document.querySelector('.add-shape');
 
 button.addEventListener("click", function () {
-   addShapes()
+   getShapes()
 })
+
+addShapesButton.onclick =()=>{
+   window.location.href='shapes.html'
+}

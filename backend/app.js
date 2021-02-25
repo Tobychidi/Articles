@@ -3,7 +3,7 @@ const app = express()
 const cors = require('cors');
 
 const shapesRoute = require('./routes/shapes');
-const sizesRoute = require('./routes/sizes');
+const dimRoute = require('./routes/dim');
 
 //MIDDLEWARES
 app.use(express.json());
@@ -18,7 +18,7 @@ app.get('/', (req,res)=>{
 
 app.use('/shapes', shapesRoute )
 
-app.use('/sizes', sizesRoute )
+app.use('/dim', dimRoute )
 
 app.get('/features', (req,res)=>{
    res.send('This is features')
