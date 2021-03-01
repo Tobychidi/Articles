@@ -9,7 +9,7 @@ const shapesRoute = require('./routes/shapes');
 const dimRoute = require('./routes/dim');
 
 
-mongoose.connect('mongodb+srv://TobyChidi:15987PIn\.@cluster0.km7jl.mongodb.net/Users?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://Tobychidi:eCUoWuwaC5X6jOX5@cluster0.ancoc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
    { useNewUrlParser: true, useUnifiedTopology: true },(err) => {
       if(err) return console.log(err)
       console.log('Connected to DB')
